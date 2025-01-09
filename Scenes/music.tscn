@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnl5ita0tw3mk"]
+
+[ext_resource type="AudioStream" uid="uid://bbv2jyse2d27n" path="res://Assets/brackeys_platformer_assets/music/73 Journey of the Prairie King - Final Boss.mp3" id="1_jhnsr"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_jhnsr")
+autoplay = true
+bus = &"Music"

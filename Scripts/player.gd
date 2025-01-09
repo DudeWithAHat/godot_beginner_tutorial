@@ -31,7 +31,14 @@ func _physics_process(delta: float) -> void:
 		else:
 			animated_sprite.play("run")
 	else:
-		animated_sprite.play("jump")
+		if velocity.y < 0:
+			animated_sprite.play("jump")
+		elif velocity.y > 0:
+			if direction == 0:
+				animated_sprite.play("fall")
+			else:
+				animated_sprite.play("dirfall")
+		
 	
 	if direction:
 		velocity.x = move_toward(velocity.x, direction * SPEED, SLIP)

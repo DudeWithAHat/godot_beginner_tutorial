@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbv2jyse2d27n"
+path="res://.godot/imported/73 Journey of the Prairie King - Final Boss.mp3-8dd0208f3f81aa6437bc69c6e1c47327.mp3str"
+
+[deps]
+
+source_file="res://Assets/brackeys_platformer_assets/music/73 Journey of the Prairie King - Final Boss.mp3"
+dest_files=["res://.godot/imported/73 Journey of the Prairie King - Final Boss.mp3-8dd0208f3f81aa6437bc69c6e1c47327.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

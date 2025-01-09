@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bglc68s5sduqf"]
+
+[ext_resource type="Script" path="res://Scenes/ui.gd" id="1_5njv5"]
+[ext_resource type="FontFile" uid="uid://6fg0o5pvmy5r" path="res://Assets/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="1_m6o2e"]
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource("1_5njv5")
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_m6o2e")
+text = "Score: X"
+
+[node name="HighScoreLabel" type="Label" parent="."]
+offset_top = 23.0
+offset_right = 40.0
+offset_bottom = 46.0
+theme_override_fonts/font = ExtResource("1_m6o2e")
+text = "High Score: X"
